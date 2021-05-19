@@ -4,9 +4,9 @@ import Movie from './components/Movie';
 
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=eeaf9f1ca0c902baa964c32961d752d4";
 const SEARCH_API = "https://api.themoviedb.org/3/search/movie?api_key=eeaf9f1ca0c902baa964c32961d752d4&language=en-US&query=";
-const GENRE_API = "https://api.themoviedb.org/3/genre/movie/list?api_key=eeaf9f1ca0c902baa964c32961d752d4&language=en-US";
+/* const GENRE_API = "https://api.themoviedb.org/3/genre/movie/list?api_key=eeaf9f1ca0c902baa964c32961d752d4&language=en-US";
 const MOVIE_GENRE_API = "https://api.themoviedb.org/3/discover/movie?api_key=eeaf9f1ca0c902baa964c32961d752d4&with_genres=";
-const IMG_API = "https://image.tmdb.org/t/p/w1280";
+const IMG_API = "https://image.tmdb.org/t/p/w1280"; */
 
 function App() {
   const [movies, setMovies ] = useState([]);
