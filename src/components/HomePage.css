@@ -1,0 +1,32 @@
+.container-homepage {
+    margin: 100px 20px;
+}
+.card {
+    background-color: #323232;
+    width: 300px;
+    border-radius: 5px;
+    transition: transform .2s
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.container-card-image {
+    height:400px;    
+}
+.image {
+    border-radius: 5px 5px 0 0;
+    height:400px;
+    width: 100%;
+}
+.card-link {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #ffb700;
+}
+.container-card-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

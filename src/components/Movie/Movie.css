@@ -1,0 +1,102 @@
+.root {
+    display: flex;
+    flex-direction: column;
+  }
+  .search-bar {
+    margin-top: 50px;
+    background-color: #212121;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .header-title {
+    font-family: "Poppins";
+    font-size: 2em;
+    color: #ffb700;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
+  }
+  .search {
+    border: 2px solid #ffb700;
+    color: #ffb700;
+    font-family: "Poppins";
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .search:focus {
+    outline: 0;
+  }
+  .movie-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .movie {
+    background-color: #323232;
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    font-family: "Poppins";
+  }
+  .movie img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    transition: transform .2s
+  }
+  .movie img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .movie-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .movie-info h3 {
+    margin: 0;
+  }
+  .movie-over {
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1);
+    color: #323232;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    max-height: 100%;
+    transform: translateY(102%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .movie:hover .movie-over {
+    transform: translateY(0%);
+  }
+  .tag {
+    background-color: #212121;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+  .tag.green {
+    color: rgb(6, 189, 6);
+  }
+  .tag.orange {
+    color: orange;
+  }
+  .tag.red {
+    color: red;
+  }
