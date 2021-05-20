@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header/Header';
-import $ from "jquery";
 import './HomePage.css';
 import imageMovieProject from '../assets/images/card/movie-project.jpg';
 
