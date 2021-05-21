@@ -39,7 +39,7 @@ export function HomeMovie() {
   const handleOnChange = (e) => {
     setSearchTerm(e.target.value);
   }
-
+  
   return (
     <>
       <Header />
@@ -54,5 +54,4 @@ export function HomeMovie() {
       </div>
     </>
   );
-  
 }

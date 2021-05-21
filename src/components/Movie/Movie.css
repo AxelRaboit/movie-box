@@ -8,6 +8,7 @@
     padding: 20px 20px 20px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .header-title {
     font-family: "Poppins";
@@ -99,4 +100,16 @@
   }
   .tag.red {
     color: red;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+  }
+  .square {
+    width: 200px;
+    height: 200px;
+    background-color: green;
   }
