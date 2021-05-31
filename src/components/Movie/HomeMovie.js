@@ -1,7 +1,6 @@
 import '../../App.css';
 import React, { useEffect, useState } from 'react';
 import Movie from './Movie';
-import Header from '../Header/Header';
 
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=eeaf9f1ca0c902baa964c32961d752d4";
 const SEARCH_API = "https://api.themoviedb.org/3/search/movie?api_key=eeaf9f1ca0c902baa964c32961d752d4&language=en-US&query=";
@@ -42,8 +41,7 @@ export function HomeMovie() {
   
   return (
     <>
-      <Header />
-      <div className="header-title">Movie Project</div>
+      <div className="header-title">The Movie DB API</div>
       <div className="search-bar">
         <form className="search-movie" onSubmit={handleOnSubmit}>
           <input className="search" type="search" placeholder="Search..." value={searchTerm} onChange={handleOnChange}/>

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { HomeMovie } from "./components/Movie/HomeMovie.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HomeMovie />
   </React.StrictMode>,
   document.getElementById('root')
 );
